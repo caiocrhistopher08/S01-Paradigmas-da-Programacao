@@ -19,11 +19,11 @@
 
 > faça isso aqui
 
-**Anexo enviado junto ao prompt:** imagem da tarefa **Relatório 01**, contendo as instruções de assistir ao material da turma, resolver os exercícios em BASIC, utilizar entradas pelo compilador quando solicitado, realizar os exercícios no OneCompiler, seguir as diretrizes de IA e entregar apenas o link do repositório no GitHub.
+**Anexo enviado junto ao prompt:** imagem da tarefa **Relatório 01**, com as instruções da atividade, linguagem utilizada, forma de entrada dos dados, uso do OneCompiler e entrega pelo GitHub.
 
 ### Resposta obtida
 
-A IA analisou as instruções da atividade e o padrão de BASIC apresentado nos materiais públicos da disciplina e produziu as seguintes soluções para organização no diretório `Relatório 01/`.
+A resposta foi utilizada como apoio para interpretar a atividade, conferir a estrutura dos exercícios em BASIC e revisar a sintaxe necessária. Os códigos trabalhados a partir dessa interação foram os seguintes:
 
 #### Exercício 01
 
@@ -114,18 +114,18 @@ Print "Consumo medio do veiculo: "; consumo; " km/l"
 Sleep
 ```
 
-A IA também organizou esses códigos como arquivos `.bas` separados dentro da pasta do relatório no repositório da disciplina.
-
 ## Relatório de aprendizado
 
-A resposta foi útil principalmente para mostrar como transformar cada problema em uma sequência de comandos no paradigma imperativo usando BASIC. No primeiro exercício, a solução evidencia como armazenar notas e pesos em variáveis, calcular uma média ponderada e usar `If/Else` para tomar uma decisão a partir do resultado. Isso ajuda a perceber que a condição controla qual trecho do programa será executado.
+A interação ajudou principalmente a revisar como um problema pode ser separado em **entrada, processamento e saída** dentro do paradigma imperativo. Também serviu para conferir a sintaxe de declaração de variáveis com `Dim`, leitura de valores com `Input` e exibição com `Print`.
 
-No segundo exercício, o uso de `While ... Wend` mostra como uma repetição pode continuar enquanto uma condição for verdadeira. A tentativa de senha é lida novamente dentro do laço, fazendo o estado da variável mudar e permitindo que o programa eventualmente saia da repetição.
+No primeiro exercício, o ponto principal foi entender a construção da média ponderada e o uso de `If/Else` para decidir entre aprovação e reprovação. Isso reforça que a condição avaliada altera diretamente o fluxo de execução do programa.
 
-Nos exercícios de conversão de moeda e consumo de combustível, fica mais claro como entradas fornecidas pelo usuário podem ser armazenadas em variáveis, utilizadas em expressões matemáticas e depois exibidas com `Print`. Também fica reforçada a diferença entre deixar um valor que faz parte da regra do problema definido no programa e receber pelo `Input` aquilo que o enunciado pede ao usuário.
+No segundo exercício, o uso de `While ... Wend` mostrou como manter uma repetição enquanto a condição ainda não foi satisfeita. A variável `tentativa` muda a cada nova entrada, permitindo que o programa saia do laço quando a senha correta é informada.
 
-O principal ponto que pode ser reaproveitado em exercícios futuros é dividir o problema em quatro etapas: declarar as variáveis necessárias, receber as entradas, processar os dados com expressões ou estruturas de controle e exibir o resultado. A resposta também ajudou a manter a sintaxe e a extensão `.bas` coerentes com o padrão utilizado no laboratório.
+Nos exercícios 3 e 4, o foco foi trabalhar operações aritméticas simples a partir de dados recebidos pelo usuário. Isso reforçou a sequência de receber os valores, armazená-los em variáveis, realizar o cálculo e então apresentar o resultado.
+
+Como referência para exercícios futuros, a principal ideia retirada dessa interação foi primeiro identificar quais dados precisam ser recebidos, depois definir o cálculo ou a estrutura de controle necessária e somente então escrever a saída do programa. A resposta também ajudou a conferir detalhes de sintaxe do BASIC e a manter os arquivos com a extensão `.bas` exigida pela atividade.
 
 ## Observação sobre o uso da IA
 
-A IA foi utilizada para interpretar a tarefa, auxiliar na elaboração dos códigos, conferir a organização dos arquivos e preparar este registro de uso. O conteúdo foi mantido neste arquivo justamente para tornar o uso da ferramenta explícito conforme as diretrizes da disciplina.
+A IA foi utilizada como ferramenta de apoio na interpretação do enunciado, na discussão da estrutura das soluções e na revisão da sintaxe e organização dos arquivos. Este registro documenta essa utilização conforme as diretrizes apresentadas para os relatórios da disciplina.
