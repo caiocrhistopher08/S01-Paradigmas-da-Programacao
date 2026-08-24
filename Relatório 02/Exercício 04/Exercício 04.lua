@@ -22,7 +22,7 @@ function analisarNumeros(n1, n2, operacao)
     elseif operacao == "diferenca" then
         return calcularDiferencaAbsoluta(n1, n2)
     else
-        return "Operacao invalida!"
+        return "Operação inválida!"
     end
 end
 
