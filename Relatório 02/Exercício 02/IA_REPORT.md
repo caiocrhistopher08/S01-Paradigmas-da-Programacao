@@ -30,13 +30,13 @@ Mensagem enviada em 24/08/2026:
 > ## Instructions
 >
 > - Assistam o vídeo disponibilizado na turma e façam os exercícios no final do slide
-> - Realizem a entrega pelo Github e anexem APENAS o link para o repositório
+> - Realizem a entrega pelo [Github](http://github.com/) e anexem **APENAS **o link para o repositório
 > - Atentem-se as informações do vídeo sobre a linguagem
 > - Nos exercícios que tiverem "Peça ao usuário", a entrada deve ser feita pelo compilador, não deve estar estático no seu código
-> - Atentem-se as diretrizes de IA anteriormente explicadas
-> - Realizem o exercício pelo OneCompiler
+> - Atentem-se as **diretrizes de IA **anteriormente explicadas
+> - Realizem o exercício pelo [OneCompiler](https://onecompiler.com/lua)
 > - Caso tenham dúvidas, procurem a um dos monitores
-> - Aos que desejarem ver os códigos utilizados de exemplo de maneira mais fácil, acessem o Github
+> - Aos que desejarem ver os códigos utilizados de exemplo de maneira mais fácil, acessem o [Github](https://github.com/F-Loschi/Monitoria-S01/tree/main/2026-2/Relat%C3%B3rio%2002)
 >
 > ## My work
 >
