@@ -1,15 +1,15 @@
-Dim senhaCorreta As Integer
-Dim tentativa As Integer
+Dim pinCorreto As Integer
+Dim pinDigitado As Integer
 
-senhaCorreta = 1234
+pinCorreto = 4321
 
-Input "Digite a senha: ", tentativa
+Input "Digite o PIN de acesso: ", pinDigitado
 
-While tentativa <> senhaCorreta
-    Print "Senha incorreta! Tente novamente."
-    Input "Digite a senha: ", tentativa
+While pinDigitado <> pinCorreto
+    Print "PIN invalido. Tente novamente."
+    Input "Digite o PIN de acesso: ", pinDigitado
 Wend
 
-Print "Acesso liberado!"
+Print "Transacao autorizada!"
 
 Sleep
