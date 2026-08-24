@@ -1,12 +1,12 @@
 Dim distancia As Double
-Dim combustivel As Double
-Dim consumo As Double
+Dim tempo As Double
+Dim pace As Double
 
 Input "Digite a distancia percorrida em km: ", distancia
-Input "Digite o combustivel gasto em litros: ", combustivel
+Input "Digite o tempo total gasto em minutos: ", tempo
 
-consumo = distancia / combustivel
+pace = tempo / distancia
 
-Print "Consumo medio do veiculo: "; consumo; " km/l"
+Print "Pace medio: "; pace; " min/km"
 
 Sleep
