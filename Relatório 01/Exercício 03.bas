@@ -1,14 +1,14 @@
-Dim reais As Double
-Dim dolares As Double
-Dim euros As Double
+Dim horas As Double
+Dim minutos As Double
+Dim segundos As Double
 
-Input "Digite um valor em reais: ", reais
+Input "Digite uma quantidade de tempo em horas: ", horas
 
-dolares = reais / 5
-euros = reais / 5.4
+minutos = horas * 60
+segundos = horas * 3600
 
-Print "Valor em reais: R$ "; reais
-Print "Valor em dolares: US$ "; dolares
-Print "Valor em euros: EUR "; euros
+Print "Valor original em horas: "; horas
+Print "Valor equivalente em minutos: "; minutos
+Print "Valor equivalente em segundos: "; segundos
 
 Sleep
