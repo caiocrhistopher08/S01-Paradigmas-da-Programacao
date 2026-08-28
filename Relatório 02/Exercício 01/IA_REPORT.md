@@ -52,7 +52,7 @@
 
 ## Resposta Obtida
 
-A IA foi utilizada como apoio na implementação e na conferência final do exercício. O código produzido para este exercício foi:
+A IA foi utilizada como apoio pontual durante a implementação e na conferência final do exercício, verificando aderência ao enunciado, sintaxe e organização do código. O código produzido para este exercício foi:
 
 ```lua
 print("Digite o expoente inicial (M):")
